@@ -1,0 +1,74 @@
+.img-products{
+    width: 70%;
+    height: auto;
+}
+
+
+
+.description{
+    font-size: 18px;
+}
+
+.img-thrash{
+    width: 40%;
+    height: auto;
+    padding: 0;
+}
+
+.delete{
+    padding: 2px !important;
+}
+
+
+                                /* Aqui comienzan las media queries  */
+    
+    /* Estilos para dispositivos móviles */
+    @media only screen and (max-width: 767px) {
+    
+        /* Estilos para dispositivos con ancho máximo de 767px */
+        
+    }
+    
+    
+    /* Estilos para tabletas */
+    @media only screen and (min-width: 768px) {
+    
+        /* Estilos para dispositivos con ancho mínimo de 768px y ancho máximo de 1080px */
+        
+        .description{
+            font-size: 20px;
+        }
+        
+        .img-products{
+            width: 65%;
+            height: auto;
+        }
+
+    }
+    
+    
+    /* Estilos para pantallas de escritorio */
+    @media only screen and (min-width: 1080px) {
+    
+        /* Estilos para dispositivos con ancho mínimo de 1080px y ancho máximo de 1400px */
+        .img-products{
+            width: 55%;
+            height: auto;
+        }
+        .img-thrash{
+            width: 60%;
+        }
+    }
+    
+    @media only screen and (min-width: 1400px) {
+        /* Estilos para dispositivos con ancho mínimo de 1400px */
+        
+        .description{
+            font-size: 24px;
+        }
+        
+        .img-products{
+            width: 45%;
+            height: auto;
+        }
+    }
